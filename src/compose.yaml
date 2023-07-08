@@ -24,8 +24,6 @@ services:
     networks:
       - express-mongo
       - react-express
-    expose: 
-      - 3000
 
   mongo:
     restart: always
