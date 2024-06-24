@@ -27,7 +27,7 @@ spec:
         app: frontend
     spec:
       containers:
-        - name: react-app
+        - name: react-app11
           image: practicaldevops.azurecr.io/react-app:latest
           imagePullPolicy: Always
           ports:
