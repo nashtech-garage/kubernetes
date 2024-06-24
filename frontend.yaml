@@ -27,8 +27,8 @@ spec:
         app: frontend
     spec:
       containers:
-        - name: frontend
-          image: hnguyencanh/frontend:latest
+        - name: react-app
+          image: practicaldevops.azurecr.io/react-app:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
